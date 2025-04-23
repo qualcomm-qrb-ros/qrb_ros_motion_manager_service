@@ -6,7 +6,7 @@ The `qrb_ros_motion_manager_service` is a ROS-based service designed for managin
 ## How to Build
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/quic-qrb-ros/qrb_ros_motion_manager_service.git
+   git clone https://github.com/qualcomm-qrb-ros/qrb_ros_motion_manager_service.git
    ```
 2. **Navigate to the workspace:**
    ```bash
@@ -45,7 +45,7 @@ The `qrb_ros_motion_manager_service` is a ROS-based service designed for managin
 - **package.xml**: Package metadata and dependencies.
 
 ## API (ROS Messages)
-The `qrb_ros_motion_manager_service` uses ROS messages defined in the `qrb_ros_motion_msgs` package. For detailed message formats, visit [QRB ROS Motion Messages](https://github.com/quic-qrb-ros/qrb_ros_interfaces/tree/main/qrb_ros_motion_msgs).
+The `qrb_ros_motion_manager_service` uses ROS messages defined in the `qrb_ros_motion_msgs` package. For detailed message formats, visit [QRB ROS Motion Messages](https://github.com/qualcomm-qrb-ros/qrb_ros_interfaces/tree/main/qrb_ros_motion_msgs).
 
 **Commonly Used Messages:**
 - `MotionCommand`: Used to send commands to the motion manager.
